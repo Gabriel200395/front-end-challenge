@@ -1,0 +1,106 @@
+.header-c nav {
+  background-color: #1565c0;
+  height: 88px;
+  padding-right: 109px;
+  padding-left: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-c nav i {
+  color: #fff;
+  font-size: 23px;
+}
+
+.header-c nav .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-c nav .logo-container img {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.header-c nav .logo-container span {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.header-c nav .logo-container button {
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.header-c nav button {
+  width: 275px;
+  height: 56px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(20, 56, 102, 0.16);
+  border: solid 2px #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.94);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.header-c .menu-options-items {
+  background-color: #0a52a3;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding-left: 109px;
+}
+
+.header-c .menu-options-items ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-c .menu-options-items li {
+  margin-right: 32px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  color: rgba(255, 255, 255, 0.84);
+  text-transform: uppercase;
+}
+
+.header-c .menu-options-items li button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  color: rgba(255, 255, 255, 0.84);
+  text-transform: uppercase;
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-c .menu-options-items li button i {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
