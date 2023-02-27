@@ -6,7 +6,8 @@ function App() {
 
 export default App;
 
-// [] - desenvolver frontend
+// [ok] - desenvolver frontend
+// [] - organizar codigo
 // [] - consumir api
 // [] - aplicar testes unitarios
 // [] - deixa aplicação responsiva

@@ -1,4 +1,5 @@
 import foregon from "../../assets/img/logo-foregon-topo.png";
+import arrowBottom from "../../assets/img/icon-seta-baixo-branca.png";
 import "./styles.css";
 
 export default function Header() {
@@ -16,12 +17,16 @@ export default function Header() {
       </nav>
       <div className="menu-options-items">
         <ul>
-          <li>Cartões para negativas</li>
+          <li>Cartões para negativados</li>
           <li>cartões com milhas</li>
           <li>cartões sem anuidade</li>
           <li>cartões para estudantes</li>
-          <li>cartões com mais beneficios</li>
-          <li><button>mais de 2  <i className="fa fa-angle-down"/></button></li>
+          <li>cartões com mais benefícios</li>
+          <li>
+            <button>
+              mais de 2 <img src={arrowBottom} alt={arrowBottom} />
+            </button>
+          </li>
         </ul>
       </div>
     </header>

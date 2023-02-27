@@ -159,10 +159,10 @@
   height: 64px;
   outline: none;
   cursor: pointer;
-  background-color: transparent;
   border-radius: 4px;
   border: none;
   color: rgba(0, 0, 0, 0.6);
+  background-color: transparent;
 }
 
 .banner-cart-c .container-cart .container-buttons .button-security span {
@@ -178,7 +178,7 @@
 }
 
 .banner-cart-c .container-information-app .grid-information-annuity-income {
-  width: 148px;
+  width: 150px;
 }
 
 .spancing-right {
@@ -238,13 +238,13 @@
 }
 
 .grid-information-chances {
-  margin-left: 49px;
   display: flex;
   align-items: center;
   border: solid 2px #f4f4f7;
   width: 368px;
   height: 82px;
   border-radius: 4px;
+  margin-left: 49px;
 }
 
 .grid-information-chances p {
@@ -253,7 +253,6 @@
   line-height: 1.38;
   letter-spacing: normal;
   color: rgba(0, 0, 0, 0.87);
-  width: 235px;
   padding-left: 20px;
 }
 

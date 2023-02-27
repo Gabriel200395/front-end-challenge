@@ -4,6 +4,7 @@ import annuity from "../../assets/img/icon-benef-cios-info.png";
 import phone from "../../assets/img/icon-benef-cios-app.png";
 import plane from "../../assets/img/icon-benef-cios-milhas.png";
 import chances from "../../assets/img//group-2.png";
+import arrowRight from "../../assets/img/icons-8-right.png";
 import "./styles.css";
 
 export default function BannerCart() {
@@ -22,6 +23,7 @@ export default function BannerCart() {
             <div className="container-assessment">
               <div className="grid-assessment">
                 <i className="fas fa-star" />
+
                 <span>4,9</span>
               </div>
               <span>2 avaliações</span>
@@ -32,7 +34,7 @@ export default function BannerCart() {
         <div className="container-buttons">
           <button className="button-cart">
             <span>Solicitar cartão</span>
-            <i className="fas fa-arrow-right" />
+            <img src={arrowRight} alt={arrowRight} />
           </button>
           <button className="button-security">
             <img src={cloud} alt={cloud} />
