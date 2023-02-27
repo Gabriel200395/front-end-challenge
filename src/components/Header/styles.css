@@ -1,8 +1,12 @@
+.header-c {
+  margin-bottom: 64px;
+}
+
 .header-c nav {
   background-color: #1565c0;
   height: 88px;
-  padding-right: 109px;
-  padding-left: 106px;
+  padding-right: 108px;
+  padding-left: 108px;
   display: flex;
   align-items: center;
   justify-content: space-between;
