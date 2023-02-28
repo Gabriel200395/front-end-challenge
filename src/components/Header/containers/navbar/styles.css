@@ -1,8 +1,8 @@
 .header-c nav {
   background-color: #1565c0;
   height: 88px;
-  padding-right: 108px;
-  padding-left: 108px;
+  padding-right: 60px;
+  padding-left: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,4 +56,18 @@
   outline: none;
   cursor: pointer;
   text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .header-c nav #button {
+    display: none;
+  }
+  .header-c nav {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .header-c nav span {
+    display: none;
+  }
 }

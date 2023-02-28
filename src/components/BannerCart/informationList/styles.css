@@ -1,28 +1,18 @@
-.banner-cart-c .container-information-app {
+.banner-cart-c .information-list-container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-cart-c .information-list-container .grid-information-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
 }
 
-.banner-cart-c .container-information-app .grid-information-items {
-  display: flex;
-}
-
 .banner-cart-c
-  .container-information-app
-  .grid-information-items
-  .grid-information-annuity-income {
-  width: 150px;
-}
-
-.banner-cart-c
-  .container-information-app
-  .grid-information-items
-  .grid-information-phone-plane {
-  width: 180px;
-}
-
-.banner-cart-c
-  .container-information-app
+  .information-list-container
   .grid-information-items
   .grid-information-annuity-income
   .header-information {
@@ -31,7 +21,7 @@
 }
 
 .banner-cart-c
-  .container-information-app
+  .information-list-container
   .grid-information-items
   .grid-information-annuity-income
   .header-information
@@ -47,7 +37,7 @@
 }
 
 .banner-cart-c
-  .container-information-app
+  .information-list-container
   .grid-information-items
   .grid-information-annuity-income
   p {
@@ -60,7 +50,7 @@
 }
 
 .banner-cart-c
-  .container-information-app
+  .information-list-container
   .grid-information-items
   .grid-information-phone-plane {
   display: flex;
@@ -68,7 +58,21 @@
 }
 
 .banner-cart-c
-  .container-information-app
+  .information-list-container
+  .grid-information-items
+  .grid-information-phone-plane {
+  width: 150px;
+}
+
+.banner-cart-c
+  .information-list-container
+  .grid-information-items
+  .grid-information-annuity-income {
+   width: 160px;
+}
+ 
+.banner-cart-c
+  .information-list-container
   .grid-information-items
   .grid-information-phone-plane
   p {
@@ -82,25 +86,133 @@
   width: 144px;
 }
 
-.grid-information-chances {
+.banner-cart-c .information-list-container .grid-information-chances {
   display: flex;
   align-items: center;
   border: solid 2px #f4f4f7;
   width: 368px;
   height: 82px;
-  border-radius: 4px;
-  margin-left: 49px;
+  border-radius: 4px; 
 }
 
-.grid-information-chances p {
+.banner-cart-c .information-list-container .grid-information-chances p {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.38;
   letter-spacing: normal;
   color: rgba(0, 0, 0, 0.87);
-  padding-left: 20px;
+  padding-left: 24px;
 }
 
-.grid-information-chances img {
+.banner-cart-c .information-list-container .grid-information-chances img {
   padding-left: 24px;
+} 
+
+
+.flex {
+  display: flex;
+}
+.spancing {
+  margin-right: 24px;
+}
+
+.item {
+  width: 144px;
+  padding-top: 8px; 
+  padding-left: 8px;
+}
+
+.item h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 4px;
+}
+
+.item p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.flex-item {
+  display: flex;
+  align-items: flex-start; 
+}
+
+@media (max-width: 767px) {
+  .banner-cart-c .information-list-container {
+    flex-direction: column-reverse;
+  }
+
+  .banner-cart-c .information-list-container .grid-information-chances {
+    margin-left: 0px;
+    width: 312px;
+    margin-bottom: 32px;
+  }
+
+  .banner-cart-c .information-list-container .grid-information-chances p {
+    font-size: 14px;
+  }
+
+  .banner-cart-c
+    .information-list-container
+    .grid-information-items
+    .grid-information-phone-plane
+    p {
+    font-size: 14px;
+    width: 112px;
+  }
+
+  .banner-cart-c
+    .information-list-container
+    .grid-information-items
+    .grid-information-annuity-income
+    .header-information
+    h3 {
+    font-size: 14px;
+  }
+
+  .banner-cart-c
+    .information-list-container
+    .grid-information-items
+    .grid-information-annuity-income
+    p {
+    font-size: 14px;
+  }
+
+  .banner-cart-c
+    .information-list-container
+    .grid-information-items
+    .grid-information-phone-plane {
+    width: 150px;
+    margin-left: 24px;
+  }
+
+  .banner-cart-c
+    .information-list-container
+    .grid-information-items
+    .grid-information-annuity-income {
+    width: 150px;
+    margin-left: 24px;
+    margin-bottom: 19px;
+  }
+
+  .banner-cart-c .information-list-container .grid-information-items {
+    padding-bottom: 32px;
+  }
+
+  .spancing-right {
+    margin-right: 0px;
+  }
 }

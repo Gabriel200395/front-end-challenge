@@ -6,33 +6,36 @@ import chances from "../../../assets/img//group-2.png";
 
 export default function InformationList() {
   return (
-    <div className="container-information-app">
-      <div className="grid-information-items">
-        <div className="flex">
-          <div className="grid-information-annuity-income spancing-right">
-            <div className="header-information">
-              <img src={annuity} alt={annuity} />
-              <h3>Anuidade</h3>
-            </div>
+    <div className="information-list-container">
+      <div className="flex">
+        <div className="flex-item spancing">
+          <img src={annuity} alt={annuity} />
+
+          <div className="item">
+            <h3>Anuidade</h3>
             <p>4x R$ 88,50</p>
           </div>
+        </div>
 
-          <div className="grid-information-annuity-income spancing-right">
-            <div className="header-information">
-              <img src={annuity} alt={annuity} />
-              <h3>Renda mínima</h3>
-            </div>
+        <div className="flex-item spancing">
+          <img src={annuity} alt={annuity} />
+
+          <div className="item">
+            <h3>Renda mínima</h3>
             <p>R$ 1.500</p>
           </div>
         </div>
-        <div className="flex">
-          <div className="grid-information-phone-plane spancing-right">
-            <img src={phone} alt={phone} />
+
+        <div className="flex-item spancing">
+          <img src={phone} alt={phone} />
+          <div className="item">
             <p>Aplicativo para controlar gastos</p>
           </div>
+        </div>
 
-          <div className="grid-information-phone-plane">
-            <img src={plane} alt={plane} />
+        <div className="flex-item">
+          <img src={plane} alt={plane} />
+          <div className="item">
             <p>Milhas aéreas pelo programa Smiles</p>
           </div>
         </div>

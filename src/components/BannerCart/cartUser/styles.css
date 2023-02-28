@@ -1,18 +1,19 @@
 .banner-cart-c .cart-user-container {
   display: flex;
+  align-items: flex-start;
   justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap; 
 }
 
 .banner-cart-c .cart-user-container .grid-cart-user {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 40px;
 }
+
 
 .banner-cart-c .cart-user-container .grid-cart-user img {
   margin-right: 40px;
+  margin-bottom: 27px; 
 }
 
 .banner-cart-c .cart-user-container .grid-cart-user h2 {
@@ -141,7 +142,12 @@
   text-transform: uppercase;
 }
 
-.banner-cart-c .cart-user-container .container-buttons .button-cart img {
+.banner-cart-c
+  .cart-user-container
+  .container-buttons
+  .button-cart
+  .grid-img
+  img {
   padding-left: 51px;
   font-size: 24px;
 }
@@ -165,4 +171,61 @@
   font-size: 14px;
   font-weight: normal;
   margin-left: 8px;
+}
+
+.banner-cart-c .container-buttons .button-chances {
+  display: flex;
+  align-items: center;
+  border: solid 2px #f4f4f7;
+  width: 368px;
+  height: 82px;
+  border-radius: 4px;
+  background-color: #195fc2;
+}
+
+.banner-cart-c .container-buttons .button-chances span {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.87);
+  padding-left: 24px;
+}
+
+.banner-cart-c .container-buttons .button-chances img {
+  padding-left: 24px;
+}
+
+@media (max-width: 767px) {
+  .banner-cart-c .cart-user-container {
+    justify-content: center;
+  }
+
+  .banner-cart-c {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .banner-cart-c .cart-user-container .grid-cart-user .grid-img img {
+    margin-bottom: 37px;
+    width: 168px;
+  }
+
+  .banner-cart-c .cart-user-container .container-buttons .button-cart {
+    width: 312px;
+    padding-left: 0px;
+    justify-content: center;
+  }
+
+  .banner-cart-c .cart-user-container .container-buttons .button-security {
+    width: 312px;
+    margin-bottom: 24px;
+  }
+
+  .banner-cart-c .cart-user-container .grid-cart-user h2 {
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 9px;
+  }
 }

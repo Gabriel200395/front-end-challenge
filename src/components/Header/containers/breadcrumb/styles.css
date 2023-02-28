@@ -3,7 +3,7 @@
   height: 64px;
   display: flex;
   align-items: center;
-  padding-left: 109px;
+  padding-left: 60px;
 }
 
 .header-c .breadcrumb-container ul {
@@ -38,4 +38,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 767px) {
+  .header-c .breadcrumb-container ul {
+    display: none;
+  }
 }

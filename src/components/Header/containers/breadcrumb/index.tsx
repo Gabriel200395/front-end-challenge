@@ -7,13 +7,13 @@ export default function Breadcrumb() {
   return (
     <div className="breadcrumb-container">
       <ul>
-        {BreadcrumbItems.map((BreadcrumbItem) => {
+        {BreadcrumbItems.map((BreadcrumbItem, index) => {
           switch (BreadcrumbItem.type) {
             case TypeText.List:
-              return <li>{BreadcrumbItem.text} </li>;
+              return <li key={index}>{BreadcrumbItem.text} </li>;
             case TypeText.ButtonText:
               return (
-                <li>
+                <li key={index}>
                   <button>
                     {BreadcrumbItem.text}
                     <img src={arrowBottom} alt={arrowBottom} />
