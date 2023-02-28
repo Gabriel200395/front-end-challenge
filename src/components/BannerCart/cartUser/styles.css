@@ -1,6 +1,6 @@
 .banner-cart-c .cart-user-container {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap; 
 }
