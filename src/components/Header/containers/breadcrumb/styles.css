@@ -22,6 +22,7 @@
   letter-spacing: 0.3px;
   color: rgba(255, 255, 255, 0.84);
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .header-c .breadcrumb-container li button {
@@ -32,6 +33,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: bold;
+  font-style: normal;
   letter-spacing: 0.3px;
   color: rgba(255, 255, 255, 0.84);
   text-transform: uppercase;
@@ -41,19 +43,47 @@
   align-items: center;
 }
 
-@media (max-width: 767px) {
+.header-c .breadcrumb-container ul::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header-c .breadcrumb-container {
+    padding-left: 20px;
+    width: 100%;
+  }
+
   .header-c .breadcrumb-container ul {
-    display: none;
+    overflow-y: auto;
+    width: 100%;
+    cursor: move;
+    justify-content: flex-start;
+  }
+  .header-c .breadcrumb-container li {
+    margin-right: 24px;
+    font-weight: 400;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 767px) and (max-width: 1200px) {
+  .header-c .breadcrumb-container {
+    padding-left: 50px;
+    width: 100%;
+  }
+
+  .header-c .breadcrumb-container ul {
+    overflow-y: auto;
+    width: 100%;
+    cursor: move;
+    justify-content: flex-start;
+  }
   .header-c .breadcrumb-container li {
+    margin-right: 24px;
     font-size: 11px;
   }
   .header-c .breadcrumb-container {
     justify-content: center;
-    padding-left: 30px;
+    padding-left: 34px;
     padding-right: 30px;
   }
 
