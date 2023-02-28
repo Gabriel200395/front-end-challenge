@@ -8,6 +8,7 @@ export default App;
 
 // [ok] - desenvolver frontend
 // [] - organizar codigo
+// [] - deixa aplicação responsiva
+// [] - deixa menu responsivo 
 // [] - consumir api
 // [] - aplicar testes unitarios
-// [] - deixa aplicação responsiva

@@ -1,0 +1,168 @@
+.banner-cart-c .cart-user-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-cart-c .cart-user-container .grid-cart-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.banner-cart-c .cart-user-container .grid-cart-user img {
+  margin-right: 40px;
+}
+
+.banner-cart-c .cart-user-container .grid-cart-user h2 {
+  width: 360px;
+  height: 82px;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.28;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 8px;
+  margin-bottom: 11px;
+}
+
+.banner-cart-c .cart-user-container .grid-cart-user .cart-information {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-cart-c
+  .cart-user-container
+  .grid-cart-user
+  .cart-information
+  .grid-recommended
+  span:nth-child(1) {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  color: #4caf50;
+  text-transform: uppercase;
+  border: solid 1px #4caf50;
+  padding: 5px 4px 4px 5px;
+  border-radius: 2px;
+  margin-right: 16px;
+}
+
+.banner-cart-c
+  .cart-user-container
+  .grid-cart-user
+  .cart-information
+  .grid-recommended
+  span:nth-child(2) {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.banner-cart-c
+  .cart-user-container
+  .grid-cart-user
+  .cart-information
+  .container-assessment {
+  display: flex;
+  align-items: center;
+}
+
+.banner-cart-c
+  .cart-user-container
+  .grid-cart-user
+  .cart-information
+  .container-assessment
+  .grid-assessment {
+  display: flex;
+  align-items: center;
+}
+
+.banner-cart-c
+  .cart-user-container
+  .grid-cart-user
+  .cart-information
+  .container-assessment
+  i {
+  color: #1565c0;
+  margin-right: 4px;
+}
+
+.banner-cart-c
+  .cart-user-container
+  .grid-cart-user
+  .cart-information
+  .container-assessment
+  .grid-assessment
+  span {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  color: rgba(0, 0, 0, 0.38);
+  margin-right: 8px;
+}
+
+.banner-cart-c
+  .cart-user-container
+  .grid-cart-user
+  .cart-information
+  .container-assessment
+  span {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  color: rgba(0, 0, 0, 0.24);
+  text-transform: uppercase;
+}
+
+.banner-cart-c .cart-user-container .container-buttons .button-cart {
+  display: flex;
+  align-items: center;
+  padding-left: 123px;
+  width: 368px;
+  height: 64px;
+  outline: none;
+  cursor: pointer;
+  background-color: #195fc2;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+}
+
+.banner-cart-c .cart-user-container .container-buttons .button-cart span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.banner-cart-c .cart-user-container .container-buttons .button-cart img {
+  padding-left: 51px;
+  font-size: 24px;
+}
+
+.banner-cart-c .cart-user-container .container-buttons .button-security {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 368px;
+  height: 64px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: transparent;
+}
+
+.banner-cart-c .cart-user-container .container-buttons .button-security span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 8px;
+}
