@@ -2,18 +2,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap; 
 }
 
 .banner-cart-c .cart-user-container .grid-cart-user {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
-
 
 .banner-cart-c .cart-user-container .grid-cart-user img {
   margin-right: 40px;
-  margin-bottom: 27px; 
+  margin-bottom: 27px;
 }
 
 .banner-cart-c .cart-user-container .grid-cart-user h2 {
@@ -146,10 +145,8 @@
   .cart-user-container
   .container-buttons
   .button-cart
-  .grid-img
   img {
   padding-left: 51px;
-  font-size: 24px;
 }
 
 .banner-cart-c .cart-user-container .container-buttons .button-security {
@@ -198,6 +195,13 @@
 
 @media (max-width: 767px) {
   .banner-cart-c .cart-user-container {
+    flex-direction: column;
+  }
+  .banner-cart-c .cart-user-container .grid-cart-user {
+    flex-direction: column;
+  }
+
+  .banner-cart-c .cart-user-container {
     justify-content: center;
   }
 
@@ -206,8 +210,8 @@
     padding-right: 0px;
   }
 
-  .banner-cart-c .cart-user-container .grid-cart-user .grid-img img {
-    margin-bottom: 37px;
+  .banner-cart-c .cart-user-container .grid-cart-user img {
+    margin-right: 0px;
     width: 168px;
   }
 
@@ -215,6 +219,7 @@
     width: 312px;
     padding-left: 0px;
     justify-content: center;
+    margin-top: 25px;
   }
 
   .banner-cart-c .cart-user-container .container-buttons .button-security {
@@ -227,5 +232,38 @@
     width: 300px;
     height: 50px;
     margin-bottom: 9px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+  .banner-cart-c .cart-user-container {
+    flex-direction: column;
+  }
+
+  .banner-cart-c .information-list-container {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1330px) {
+  .banner-cart-c {
+    padding-right: 50px;
+    padding-left: 50px;
+  } 
+
+  .banner-cart-c .cart-user-container .container-buttons .button-cart {
+    width: 312px;  
+    padding-left: 0px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+
+  .banner-cart-c .cart-user-container .container-buttons .button-security {
+    width: 312px;
+  } 
+
+  .banner-cart-c .cart-user-container .grid-cart-user h2 {
+    font-size: 30px;
   }
 }

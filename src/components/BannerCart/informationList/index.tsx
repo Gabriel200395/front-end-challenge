@@ -7,35 +7,35 @@ import chances from "../../../assets/img//group-2.png";
 export default function InformationList() {
   return (
     <div className="information-list-container">
-      <div className="flex">
-        <div className="flex-item spancing">
+      <div className="grid-informations">
+        <div className="information-item spancing-right">
           <img src={annuity} alt={annuity} />
 
-          <div className="item">
+          <div className="information-text">
             <h3>Anuidade</h3>
             <p>4x R$ 88,50</p>
           </div>
         </div>
 
-        <div className="flex-item spancing">
+        <div className="information-item spancing-right">
           <img src={annuity} alt={annuity} />
 
-          <div className="item">
+          <div className="information-text">
             <h3>Renda mínima</h3>
             <p>R$ 1.500</p>
           </div>
         </div>
 
-        <div className="flex-item spancing">
+        <div className="information-item spancing-right">
           <img src={phone} alt={phone} />
-          <div className="item">
+          <div className="information-text">
             <p>Aplicativo para controlar gastos</p>
           </div>
         </div>
 
-        <div className="flex-item">
+        <div className="information-item">
           <img src={plane} alt={plane} />
-          <div className="item">
+          <div className="information-text">
             <p>Milhas aéreas pelo programa Smiles</p>
           </div>
         </div>

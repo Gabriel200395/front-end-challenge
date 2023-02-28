@@ -69,5 +69,9 @@
 
   .header-c nav span {
     display: none;
+  } 
+
+  .header-c nav .logo-container button {
+   padding-left: 24px;
   }
 }
