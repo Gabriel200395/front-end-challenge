@@ -75,3 +75,20 @@
    padding-left: 24px;
   }
 }
+ 
+
+@media (min-width: 768px) and (max-width: 1200px){
+  .header-c nav {
+    padding-left:  30px;
+    padding-right: 30px;
+  }
+
+  .header-c nav .logo-container button {
+   padding-left: 24px;
+  } 
+
+  .header-c nav #button {
+    width: 200px;
+    font-size: 12px;
+  }
+}
