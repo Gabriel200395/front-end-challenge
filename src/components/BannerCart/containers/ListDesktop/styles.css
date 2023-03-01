@@ -1,0 +1,134 @@
+.banner-cart-c .information-list-container .grid-informations-desktop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.banner-cart-c
+  .information-list-container
+  .grid-informations-desktop
+  .spancing-right {
+  margin-right: 24px;
+}
+
+.banner-cart-c
+  .information-list-container
+  .grid-informations-desktop
+  .information-text {
+  width: 144px;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+.banner-cart-c
+  .information-list-container
+  .grid-informations-desktop
+  .information-text
+  h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 4px;
+}
+
+.banner-cart-c
+  .information-list-container
+  .grid-informations-desktop
+  .information-text
+  p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.banner-cart-c
+  .information-list-container
+  .grid-informations-desktop
+  .information-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+  .banner-cart-c
+    .information-list-container
+    .grid-informations-desktop
+    .information-item {
+    margin-bottom: 20px;
+  }
+  .banner-cart-c .information-list-container {
+    flex-direction: column-reverse;
+  }
+
+  .banner-cart-c
+    .information-list-container
+    .grid-informations-desktop
+    .spancing-right {
+    margin-right: 0px;
+  }
+
+  .banner-cart-c .information-list-container .grid-informations-desktop {
+    width: 400px;
+    margin-top: 32px;
+    padding-bottom: 32px;
+    justify-content: center;
+  }
+
+  .banner-cart-c .information-list-container .grid-information-chances {
+    width: 312px;
+    margin-top: 27px;
+  }
+
+  .banner-cart-c .information-list-container .grid-information-chances p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1101px) and (max-width: 1330px) {
+  .banner-cart-c .information-list-container .grid-informations-desktop {
+    width: 70%;
+    margin-top: 32px;
+    padding-bottom: 32px;
+    justify-content: flex-start;
+  }
+
+  .banner-cart-c
+    .information-list-container
+    .grid-informations-desktop
+    .information-text {
+    width: 130px;
+  }
+
+  .banner-cart-c
+    .information-list-container
+    .grid-informations-desktop
+    .information-text
+    p {
+    font-size: 14px;
+  }
+
+  .banner-cart-c
+    .information-list-container
+    .grid-informations-desktop
+    .spancing-right {
+    margin-right: 0px;
+  }
+
+  .banner-cart-c .information-list-container .grid-information-chances {
+    width: 312px;
+  }
+
+  .banner-cart-c .information-list-container .grid-information-chances p {
+    font-size: 14px;
+  }
+}

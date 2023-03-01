@@ -1,0 +1,141 @@
+.banner-cart-c .information-list-container .grid-informations-mobile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.banner-cart-c
+  .information-list-container
+  .grid-informations-mobile
+  .spancing-right {
+  margin-right: 24px;
+}
+
+.banner-cart-c
+  .information-list-container
+  .grid-informations-mobile
+  .information-text {
+  width: 144px;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+.banner-cart-c
+  .information-list-container
+  .grid-informations-mobile
+  .information-text
+  h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 4px;
+}
+
+.banner-cart-c
+  .information-list-container
+  .grid-informations-mobile
+  .information-text
+  p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.banner-cart-c
+  .information-list-container
+  .grid-informations-mobile
+  .information-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+@media (max-width: 767px) {
+  .banner-cart-c .information-list-container .grid-informations-desktop {
+    display: none;
+  }
+
+  .banner-cart-c .information-list-container {
+    flex-direction: column-reverse;
+  }
+
+  .banner-cart-c .information-list-container .grid-information-chances p {
+    font-size: 14px;
+  }
+  .banner-cart-c .information-list-container .grid-information-chances {
+    margin-left: 0px;
+    width: 312px;
+    margin-bottom: 32px;
+  }
+
+  .banner-cart-c .information-list-container .grid-informations-mobile {
+    padding-bottom: 32px;
+  }
+
+  .banner-cart-c
+    .information-list-container
+    .grid-informations-mobile
+    .spancing-right {
+    margin-right: 0px;
+  }
+
+  .banner-cart-c
+    .information-list-container
+    .grid-informations-mobile
+    .information-text
+    p {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    width: 112px;
+    margin-bottom: 4px;
+  }
+
+  .banner-cart-c
+    .information-list-container
+    .grid-informations-mobile
+    .information-text
+    a {
+    color: #1976d2;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1.4px;
+    text-decoration: none;
+  }
+
+  .banner-cart-c
+    .information-list-container
+    .grid-informations-mobile
+    .information-text
+    .grid-link {
+    width: 97px;
+  }
+
+  .banner-cart-c
+    .information-list-container
+    .grid-informations-mobile
+    .information-item {
+    margin-bottom: 20px;
+    width: 180px;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 768px) {
+  .banner-cart-c .information-list-container .grid-informations-mobile {
+    width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner-cart-c .information-list-container .grid-informations-mobile {
+    display: none;
+  }
+}

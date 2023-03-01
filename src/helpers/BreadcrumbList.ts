@@ -1,4 +1,4 @@
-import { BreadcrumbProps } from "../types/Breadcrumb";
+import { BreadcrumbProps } from "../types/breadcrumb";
 
 export const BreadcrumbItems: BreadcrumbProps[] = [
   {

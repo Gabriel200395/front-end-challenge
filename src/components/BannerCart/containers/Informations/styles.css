@@ -1,0 +1,27 @@
+.banner-cart-c .information-list-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-cart-c .information-list-container .grid-information-chances {
+  display: flex;
+  align-items: center;
+  border: solid 2px #f4f4f7;
+  width: 368px;
+  height: 82px;
+  border-radius: 4px;
+}
+
+.banner-cart-c .information-list-container .grid-information-chances p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.87);
+  padding-left: 24px;
+}
+
+.banner-cart-c .information-list-container .grid-information-chances img {
+  padding-left: 24px;
+}

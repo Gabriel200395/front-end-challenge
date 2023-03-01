@@ -1,7 +1,7 @@
 import "./styles.css";
 import arrowBottom from "../../../../assets/img/icon-seta-baixo-branca.png";
 import { BreadcrumbItems } from "../../../../helpers/BreadcrumbList";
-import { TypeText } from "../../../../types/Breadcrumb";
+import { TypeText } from "../../../../types/breadcrumb";
 
 export default function Breadcrumb() {
   return (
