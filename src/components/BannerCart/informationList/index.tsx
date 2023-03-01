@@ -60,7 +60,7 @@ export default function InformationList() {
             <img src={annuity} alt={annuity} />
 
             <div className="information-text">
-              <h3>Renda mínima</h3>
+              <h3>Renda mínima:</h3>
               <p>Salário mínimo</p>
             </div>
           </div>

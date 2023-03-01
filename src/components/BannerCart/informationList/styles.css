@@ -139,6 +139,10 @@
 }
 
 @media (max-width: 767px) {
+  .banner-cart-c .information-list-container .grid-informations {
+    display: none;
+  }
+
   .banner-cart-c .information-list-container {
     flex-direction: column-reverse;
   }
@@ -147,21 +151,6 @@
     margin-left: 0px;
     width: 312px;
     margin-bottom: 32px;
-  }
-
-  .banner-cart-c .information-list-container .grid-informations {
-    display: none;
-  }
-
-  .banner-cart-c .information-list-container .grid-informations-mobile {
-    width: 400px;
-    margin-top: 32px;
-    padding-bottom: 32px;
-    justify-content: center;
-  }
-
-  .banner-cart-c .information-list-container .grid-information-chances p {
-    font-size: 14px;
   }
 
   .banner-cart-c .information-list-container .grid-informations-mobile {
@@ -215,6 +204,7 @@
     .grid-informations-mobile
     .information-item {
     margin-bottom: 20px;
+    width: 180px;
   }
 }
 
@@ -229,7 +219,10 @@
     flex-direction: column-reverse;
   }
 
-  .banner-cart-c .information-list-container .grid-informations .spancing-right {
+  .banner-cart-c
+    .information-list-container
+    .grid-informations
+    .spancing-right {
     margin-right: 0px;
   }
 
@@ -266,7 +259,7 @@
   .banner-cart-c .information-list-container .information-text {
     width: 130px;
   }
-   
+
   .banner-cart-c .information-list-container .information-text p {
     font-size: 14px;
   }
