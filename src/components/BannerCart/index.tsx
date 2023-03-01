@@ -8,6 +8,7 @@ export default function BannerCart() {
   if (error) return <div>Erro!</div>;
   if (isLoading) return <div>Carregando</div>;
 
+
   return (
     <section className="banner-cart-c">
       <CartUser data={data} />

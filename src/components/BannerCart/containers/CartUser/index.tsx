@@ -3,7 +3,7 @@ import cloud from "../../../../assets/img/icons-8-cloud-firewall.png";
 import cart from "../../../../assets/img/cart-o.png";
 import arrowRight from "../../../../assets/img/icons-8-right.png";
 import { formatNumber } from "../../../../utils/formatNumber";
-import { PropsInformationList } from "../../../../types/informationList";
+import {PropsInformationList} from "../../../../types/informationList"
 
 export default function CartUser({ data }: PropsInformationList) {
   return (
