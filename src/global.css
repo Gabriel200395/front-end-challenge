@@ -20,10 +20,3 @@
 .header-c {
   margin-bottom: 64px;
 } 
-
-@media (max-width: 768px) {
-  .spancing-right {
-    margin-right: 0px;
-  }
-}
-

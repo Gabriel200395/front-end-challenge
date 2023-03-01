@@ -243,6 +243,19 @@
   .banner-cart-c .information-list-container {
     flex-direction: column-reverse;
   }
+
+  
+  .banner-cart-c .cart-user-container .container-buttons .button-cart {
+    width: 312px;
+    padding-left: 0px;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .banner-cart-c .cart-user-container .container-buttons .button-security {
+    width: 312px;
+  }
+
 }
 
 @media (min-width: 1100px) and (max-width: 1330px) {
