@@ -2,13 +2,10 @@ import "./styles.css";
 import cloud from "../../../../assets/img/icons-8-cloud-firewall.png";
 import cart from "../../../../assets/img/cart-o.png";
 import arrowRight from "../../../../assets/img/icons-8-right.png";
-import { DataCartUser } from "../../../../types/data.user";
+import { formatNumber } from "../../../../utils/formatNumber";
+import { PropsInformationList } from "../../../../types/informationList";
 
-interface PropsCartUser {
-  data: DataCartUser | undefined;
-}
-
-export default function CartUser({ data }: PropsCartUser) {
+export default function CartUser({ data }: PropsInformationList) {
   return (
     <div className="cart-user-container">
       <div className="grid-cart-user">
@@ -24,7 +21,7 @@ export default function CartUser({ data }: PropsCartUser) {
             <div className="grid-assessment">
               <i className="fas fa-star" />
 
-              <span>{Number(data?.rating.average_score).toFixed(1).replace(".", ",")}</span>
+              <span>{formatNumber(data?.rating.average_score)}</span>
             </div>
             <span>{data?.rating.total_reviews} avaliações</span>
           </div>
