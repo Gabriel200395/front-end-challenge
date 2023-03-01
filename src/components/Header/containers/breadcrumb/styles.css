@@ -3,7 +3,7 @@
   height: 64px;
   display: flex;
   align-items: center;
-  padding-left: 90px;
+  padding-left: 95px;
 }
 
 .header-c .breadcrumb-container ul {
@@ -79,8 +79,8 @@
     font-size: 11px;
   }
   .header-c .breadcrumb-container {
-    justify-content: center;
-    padding-left: 34px;
+    justify-content: flex-start;
+    padding-left: 36px;
     padding-right: 30px;
   }
 

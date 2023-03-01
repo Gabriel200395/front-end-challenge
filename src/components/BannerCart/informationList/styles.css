@@ -138,7 +138,7 @@
   align-items: flex-start;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .banner-cart-c .information-list-container .grid-informations {
     display: none;
   }
@@ -147,6 +147,9 @@
     flex-direction: column-reverse;
   }
 
+  .banner-cart-c .information-list-container .grid-information-chances p {
+    font-size: 14px;
+  }
   .banner-cart-c .information-list-container .grid-information-chances {
     margin-left: 0px;
     width: 312px;
@@ -162,10 +165,6 @@
     .grid-informations-mobile
     .spancing-right {
     margin-right: 0px;
-  }
-
-  .banner-cart-c .information-list-container .grid-informations-mobile {
-    padding-bottom: 32px;
   }
 
   .banner-cart-c
@@ -235,10 +234,17 @@
 
   .banner-cart-c .information-list-container .grid-information-chances {
     width: 312px;
+    margin-top: 27px;
   }
 
   .banner-cart-c .information-list-container .grid-information-chances p {
     font-size: 14px;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 768px) {
+  .banner-cart-c .information-list-container .grid-informations-mobile {
+    width: 400px;
   }
 }
 
@@ -248,9 +254,9 @@
   }
 }
 
-@media (min-width: 1100px) and (max-width: 1330px) {
+@media (min-width: 1101px) and (max-width: 1330px) {
   .banner-cart-c .information-list-container .grid-informations {
-    width: 60%;
+    width: 70%;
     margin-top: 32px;
     padding-bottom: 32px;
     justify-content: flex-start;
@@ -274,14 +280,5 @@
 
   .banner-cart-c .information-list-container .grid-information-chances p {
     font-size: 14px;
-  }
-}
-
-@media (min-width: 1100px) and (max-width: 1200px) {
-  .banner-cart-c .information-list-container .grid-informations {
-    width: 400px;
-    margin-top: 32px;
-    padding-bottom: 32px;
-    justify-content: flex-start;
   }
 }

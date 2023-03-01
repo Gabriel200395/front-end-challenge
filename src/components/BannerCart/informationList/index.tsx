@@ -48,7 +48,7 @@ export default function InformationList() {
             <img src={annuity} alt={annuity} />
 
             <div className="information-text">
-              <h3>Anuidade</h3>
+              <h3>Anuidade:</h3>
               <p>12x R$ 31,17</p>
               <div className="grid-link">
                 <a href="#">Pode ser grátis, veja como →</a>
