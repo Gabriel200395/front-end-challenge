@@ -1,5 +1,6 @@
-import "./styles.css"
+import "./styles.css";
 import { informListMobile } from "../../../../helpers/InformationListMobile";
+import { TypeTextList } from "../../../../types/propsListInformation";
 
 export default function ListMobile() {
   return (
@@ -7,7 +8,7 @@ export default function ListMobile() {
       <div className="flex">
         {informListMobile.map((information, index) => {
           switch (information.type) {
-            case "TextHeader":
+            case TypeTextList.TextHeader:
               return (
                 <div
                   className={`information-item ${information.spancing}`}
@@ -35,7 +36,7 @@ export default function ListMobile() {
       <div className="flex">
         {informListMobile.map((information, index) => {
           switch (information.type) {
-            case "Text":
+            case TypeTextList.Text:
               return (
                 <div
                   className={`information-item ${information.spancing}`}

@@ -6,3 +6,11 @@ export interface PropsListInformation {
   text?: string;
   link?: string;
 }
+
+export enum TypeTextList {
+  TextHeader = "TextHeader",
+  Text = "Text",
+}
+
+
+

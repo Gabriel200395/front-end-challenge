@@ -1,9 +1,9 @@
 import Informations from "./containers/Informations";
 import CartUser from "./containers/CartUser";
-import useFetch from "./hooks/useFetch";
+import {useDataCartQuery} from "./hooks/useFetch";
 
 export default function BannerCart() {
-  const { error, data, isLoading } = useFetch();
+  const { error, data, isLoading } = useDataCartQuery();
 
   if (error) return <div>Erro!</div>;
   if (isLoading) return <div>Carregando</div>;

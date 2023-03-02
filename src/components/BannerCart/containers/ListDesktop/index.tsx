@@ -1,7 +1,8 @@
-import "./styles.css"
+import "./styles.css";
 import { informListDesKTOP } from "../../../../helpers/InformationListDestop";
 import { formatMoney } from "../../../../utils/formatMoney";
 import { treatCharacter } from "../../../../utils/treatCharacter";
+import { TypeTextList } from "../../../../types/propsListInformation";
 
 interface PropsListDesktop {
   textFormatted: string | undefined;
@@ -16,7 +17,7 @@ export default function ListDesktop({
     <div className="grid-informations-desktop">
       {informListDesKTOP.map((information, index) => {
         switch (information.type) {
-          case "TextHeader":
+          case TypeTextList.TextHeader:
             return (
               <div
                 className={`information-item ${information.spancing}`}
@@ -35,7 +36,7 @@ export default function ListDesktop({
               </div>
             );
 
-          case "Text":
+          case TypeTextList.Text:
             return (
               <div
                 className={`information-item ${information.spancing}`}
