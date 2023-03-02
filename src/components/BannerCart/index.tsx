@@ -7,7 +7,7 @@ export default function BannerCart() {
   const { error, data, isLoading } = useDataCartQuery();
 
 
-  if (error) return <div>Erro!</div>;
+  if (error) return <div className="error">Erro de Conexão com Serviço... </div>;
 
   if (isLoading) return <SkaletonComponent />;
 

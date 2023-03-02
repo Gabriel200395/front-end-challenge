@@ -1,6 +1,6 @@
+import CartUser from "./index";
 import { render, screen } from "@testing-library/react";
 import { useDataCartQuery } from "./hooks/useFetch";
-import CartUser from "./index";
 import { data } from "../../data/data.mock";
 
 const mockedUseProduct = useDataCartQuery as jest.Mock<any>;
@@ -21,7 +21,7 @@ test("Error request text", () => {
   mockedUseProduct.mockImplementation(() => ({ error: true }));
   render(<CartUser />);
 
-  expect(screen.getByText(/erro!/i)).toBeInTheDocument();
+  expect(screen.getByText(/Erro de Conexão com Serviço.../i)).toBeInTheDocument();
 });
 
 test("User card data request", () => {
