@@ -1,3 +1,11 @@
+## :wrench: Tecnologias
+
+- [React](https://pt-br.reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [React Testing Lybrary](https://testing-library.com/docs/react-testing-library/intro/)
+- [React Query](https://react-query-v3.tanstack.com/)
+- [React Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
+
 ## 💻 Como usar
 
 - Clone o projeto: `https://github.com/Gabriel200395/front-end-challenge.git`
