@@ -1,5 +1,5 @@
-import Breadcrumb from "./containers/Breadcrumb";
-import Navbar from "./containers/Navbar";
+import Breadcrumb from "./containers/breadcrumb";
+import Navbar from "./containers/navbar";
 
 export default function Header() {
   return (
