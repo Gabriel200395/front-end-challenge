@@ -1,0 +1,41 @@
+.skaletopn-component {
+  padding-left: 90px;
+  padding-right: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cards {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card-item {
+  margin-bottom: 20px;
+  width: 250px !important;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .cards {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .spancin-card {
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1300px) {
+  .card-item {
+    width: 180px !important;
+  }
+}

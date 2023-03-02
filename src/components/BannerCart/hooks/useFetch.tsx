@@ -11,6 +11,6 @@ const getDataCart = async (): Promise<DataCartUser> => {
 export const useDataCartQuery = () =>
   useQuery({
     queryKey: ["dataCarUser"],
-    queryFn: () => getDataCart(),
+    queryFn: () => getDataCart(), 
   });
 

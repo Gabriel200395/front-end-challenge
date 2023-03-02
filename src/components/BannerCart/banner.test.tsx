@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { useDataCartQuery } from "./hooks/useFetch";
 import CartUser from "./index";
-import { data } from "../../helpers/data.mock";
+import { data } from "../../data/data.mock";
 
 const mockedUseProduct = useDataCartQuery as jest.Mock<any>;
 jest.mock("./hooks/useFetch");
@@ -10,11 +10,11 @@ afterEach(() => {
   jest.clearAllMocks();
 });
 
-test("loading text", () => {
+test("loading", () => {
   mockedUseProduct.mockImplementation(() => ({ isLoading: true }));
   render(<CartUser />);
 
-  expect(screen.getByText(/carregando/i)).toBeInTheDocument();
+  expect(screen.getByRole("skaleton-container")).toBeInTheDocument()
 });
 
 test("Error request text", () => {

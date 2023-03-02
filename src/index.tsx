@@ -2,7 +2,8 @@ import React from "react";
 import "./global.css";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import reportWebVitals from "./reportWebVitals";
+import reportWebVitals from "./reportWebVitals"; 
+import 'react-loading-skeleton/dist/skeleton.css'
 import { QueryClient, QueryClientProvider } from "react-query";
 
 const queryClient = new QueryClient();
